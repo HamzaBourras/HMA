@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.container{
+    padding: 1px 10px;
+    margin: 1px 10px;
+}
+
+.navigation{
+    display: flex;
+}
+
+.logo{
+    position:absolute;
+    left: 20px;
+    top: -4px;
+}
+
+.logo h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #e0eff2;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, 1px 8px 0 #0a0e27;
+}
+
+.logo i{
+    font-size: 25px;
+}
+
+.info{
+    position:absolute;
+    right: 10%;
+    top: 45px;
+}
+.info a{
+    margin: 1px 30px;
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info a:hover{
+    color: rgb(43, 43, 223);
+    border-bottom:2px solid rgb(43, 43, 223) ;
+}
+
+.line{
+    margin-top: 75px;
+}
+
+.about{
+    margin-top:50px ;
+    padding: 200px 10px;
+    background-color: brown;
+}
+
+.about iframe{
+    position: absolute;
+    left: 0;
+}
+
+.footer{
+    
+        background-color: black;
+        box-sizing: border-box;
+        padding-top: 90px;
+        padding-bottom: 100px;
+}
